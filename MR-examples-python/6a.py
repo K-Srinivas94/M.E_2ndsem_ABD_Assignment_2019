@@ -1,16 +1,15 @@
 from mrjob.job import MRJob
 from mrjob.step import MRStep
 import sys  
-class MRWordFrequencyCount(MRJob):
+class MRplayer(MRJob):
+	
 	def mapper1(self, _, lines):
 		data = lines.split(',')
 		players = data[0].strip()
 		yield players,None
 
 	def combiner(self, word, counts):
-		
 		yield word,None			
-		
 		
 	def reducer1(self, key, counts):
 		yield "total players",key
@@ -24,4 +23,4 @@ class MRWordFrequencyCount(MRJob):
 
 
 if __name__ == '__main__':
-    MRWordFrequencyCount.run()
+    MRplayer.run()
