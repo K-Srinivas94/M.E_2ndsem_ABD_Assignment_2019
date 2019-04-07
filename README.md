@@ -6,7 +6,11 @@ This Repository contains the Solution for the Questions in Questions.txt file of
 
 Commands for solving the Questions for these questions are in the Ans-Commands.txt
 
-### Map Reduce problems (6,8,10)
+### Visualization (Question 7)
+
+Q7_Batting.ipynb
+
+### Map Reduce problems (Questions 6,8,10)
 
 Solutions of Map Reduce Problems are in  MR-examples-python Folder
 
