@@ -11,7 +11,6 @@ class MRmyjob(MRJob):
 			yield hofid,None
 
 	def reducer(self, key, list_of_values):
-		
 		yield "manager",key
 	
 if __name__ == '__main__':
