@@ -8,8 +8,7 @@ Commands for solving the Questions for these questions are in the Ans-Commands.t
 
 ### Visualization (Question 7)
 
-Q7_Batting.ipynb
-data is in MR-examples-python/DataFiles Folder
+soultion is Q7_Batting.ipynb and data is in MR-examples-python/DataFiles Folder
 
 ### Map Reduce problems (Questions 6,8,10)
 
